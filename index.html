@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Pet Tarot Reading</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+   <h1>Pet Tarot Reading</h1>
+   <form id="petForm">
+     <input type="text" id="petName" placeholder="Enter your pet's name" required>
+     <button type="submit">Draw a Card</button>
+   </form>
+   <div id="result" style="display: none;">
+     <h2 id="cardName"></h2>
+     <img id="cardImage" src="" alt="Tarot Card">
+     <p id="cardDescription"></p>
+     <button id="retryButton">Draw Again</button>
+   </div>
+ </div>
+ <script src="script.js"></script>
+</body>
+</html>
+
